@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parquimetro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header> 
         <h1>Parquímetro</h1>
     </header>
    <main>
-        <h2>Tabela de Preços:</h2>
-        <p id="cabecalho">valor | Tempo</p>
-        <p>R$: 1,00 | 30 min</p>
-        <p>R$: 1,75 | 60 min</p>
-        <p>R$: 3,00 | 120 min</p>
-        <p id="rodape">Tempo máx: 120 min</p>
-        <section>
+        <section class="tabela">
+            <h2>Tabela de Preços:</h2>
+            <p id="cabecalho">Valor | Tempo</p>
+            <p>R$: 1,00 | 30 min</p>
+            <p>R$: 1,75 | 60 min</p>
+            <p>R$: 3,00 | 120 min</p>
+            <p id="rodape">Tempo máx: 120 min</p>
+        </section>
+        <section class="usuario">
             <input type="number" id="valorDeposito" placeholder="Valor do deposito">
 
             <button onclick="nParquimetro.depositar()">DEPOSITAR</button>
