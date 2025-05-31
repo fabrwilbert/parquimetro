@@ -19,15 +19,16 @@
         <section>
             <input type="number" id="valorDeposito" placeholder="Valor do deposito">
 
-            <button>DEPOSITAR</button>
+            <button onclick="nParquimetro.depositar()">DEPOSITAR</button>
+            <button onclick="nParquimetro.darTroco()">TROCO</button>
 
-            <P id="valorDepositado">Valor Depositado: R$ 0,00</P>
-            <p id="tempoEstacionamento">Tempo de estacionamento: 0 min</p>
-            <p id="tempoMaximo"></p>
-            <p id="troco">Seu troco é de: R$ 0,00</p>
-
+            <p id="saldo">Saldo: R$ 0,00</p>
+            <p id="tempo">Tempo: 0 min</p>
+            <p id="troco">Troco: R$ 0,00</p>
         </section>
    </main>
+
+   <script src="script.js"></script>
 
     
 </body>
